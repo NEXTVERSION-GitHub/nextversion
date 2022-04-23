@@ -1,0 +1,399 @@
+$next_blue:rgb(64,92,191);
+
+@media screen and (max-width: 520px){
+    /* スマートフォン用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
+    .header-menu-sub{
+        position: absolute;
+        margin-left: -40px;
+        padding: 0;
+        display: none;
+        li{
+            margin-top:40px;
+            a{
+                font-size: 1.5rem;
+                padding: 5px;
+                margin-left: -5px;
+                margin-right: -5px;
+                margin-bottom: -5px;
+                display: block;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .sp{
+        display: inline-block;
+    }
+.active {
+}
+
+    header{
+        padding:5px 0;
+        .header-container{
+            .header-left{
+                width:20%;
+            }
+            .header-right{
+                .header-btn{
+                    display: none;
+                }
+                .header-btns{
+                    display: block;
+                    .header-menu{
+                        .fa-align-justify{
+                            font-size:2.5rem;
+                            line-height: 53px;
+                            color: $next_blue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    main{
+        padding-top:54px;
+        .top{
+            height:95%;
+            .top-container{
+                background-image: url("../img/sky.jpg");
+                background-size: cover;
+    
+                .top-text{
+                    font-size:2.0rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    h2{
+                        margin-top:30px;
+                        font-size:2.0rem;
+                        padding-right: 10px;
+                    }
+                    h1{
+                        font-size:2.3rem;
+                        margin-top:60px;
+                    }
+                }
+            }
+        }
+        .main-about{
+            h1{
+                font-size:4.0rem;
+            }
+            p{
+                font-size:1.5rem;
+            }
+            .about-text{
+                p{
+                    font-size: 1.5rem;
+                    width:80%;
+                }
+            }
+        }
+        .main-service{
+            h1{
+                font-size: 4.0rem;
+            }
+            p{
+                font-size: 1.5rem;
+            }
+            .service-text{
+                p{
+                    width:80%;
+                    font-size:1.5rem;
+                }
+            }
+        }
+        .main-flow{
+            h1{
+                font-size: 4.0rem;
+            }
+            p{
+                font-size: 1.5rem;
+            }
+            .flow-text{
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 30px;
+                .flow-box{
+                    width: 80%;
+                    margin: 0 auto;
+                    margin-bottom: 30px;
+                }
+            
+            }
+            .flow-more{
+                margin-left:60%;
+            }
+        }
+        
+        .main-price{
+            h1{
+                font-size: 4.0rem;;
+            }
+            p{
+                font-size: 1.5rem;;
+            }
+            .plan-boxes{
+                padding-top:80px;
+                .boxes-container{
+                    .a-plan{
+                        display: flex;
+                        flex-wrap: wrap;
+                        h2{
+                            font-size:2.5rem;
+                        }
+                        h3{
+                            margin-left:40px;
+                            font-size:1.3rem;
+                        }
+                        p{
+                            margin-left: 40px;
+                            font-size: 1.3rem;
+                        }
+                    }
+                    .b-plan{
+                        display: flex;
+                        flex-wrap: wrap;
+                        h2{
+                            font-size:2.5rem;
+                        }
+                        h3{
+                            margin-left:40px;
+                            font-size:1.3rem;
+                        }
+                        p{
+                            margin-left: 40px;
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+            .plan-more{
+                margin-left:60%;
+            }
+        }
+        .main-contact{
+            h1{
+                font-size:3.5rem;
+            }
+            p{
+                font-size:1.0rem;
+            }
+            .contact-text{
+                p{
+                    width:80%;
+                    margin:0 auto;
+                }
+            }
+            .contact-btn{
+                margin-top:0;
+            }
+        }
+
+
+
+    }
+}
+
+@media screen and (min-width:520px)and (max-width: 960px) {
+    /* タブレット用レイアウト 521px以上の範囲に収めるデザインはこの中に記述 */
+
+    .tb{
+        display: inline-block;
+    }
+    .header-menu-sub{
+        position: absolute;
+        margin-left: -40px;
+        padding: 0;
+        display: none;
+        li{
+            margin-top:40px;
+            a{
+                font-size: 1.5rem;
+                padding: 5px;
+                margin-left: -5px;
+                margin-right: -5px;
+                margin-bottom: -5px;
+                display: block;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+
+
+
+.active {
+}
+
+    header{
+        padding:5px 0;
+        .header-container{
+            .header-left{
+                width:20%;
+            }
+            .header-right{
+                .header-btn{
+                    display: none;
+                }
+                .header-btns{
+                    display: block;
+                    .header-menu{
+                        .fa-align-justify{
+                            font-size:2.5rem;
+                            line-height: 53px;
+                            color: $next_blue;
+                            line-height: 80px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    main{
+        padding-top:54px;
+        .top{
+            height:96%;
+            .top-container{
+                background-image: url("../img/sky.jpg");
+                background-size: cover;
+                .top-text{
+                    font-size:3.0rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    h2{
+                        font-size:3.0rem;
+                        margin-top:12%;
+                        padding:0;
+                        padding-right:10px;
+                    }
+                    h1{
+                        font-size:3.5rem;
+                        margin-top:115px;
+                    }
+                }
+            }
+        }
+        .main-about{
+            h1{
+                font-size:4.0rem;
+            }
+            p{
+                font-size:1.5rem;
+            }
+            .about-text{
+                p{
+                    font-size: 1.5rem;
+                    width:80%;
+                }
+            }
+        }
+        .main-service{
+            h1{
+                font-size: 4.0rem;
+
+            }
+            p{
+                font-size: 1.5rem;
+            }
+            .service-text{
+                p{
+                    width:80%;
+                    font-size:1.5rem;
+                }
+            }
+        }
+        .main-flow{
+            h1{
+                font-size: 4.0rem;
+            }
+            p{
+                font-size: 1.5rem;
+            }
+            .flow-text{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                padding-bottom: 30px;
+                .flow-box{
+                    width: 46%;
+                    margin: 0 auto;
+                    margin-bottom: 30px;
+                }
+            
+            }
+            .flow-more{
+                margin-left:60%;
+            }
+        }
+        
+        .main-price{
+            h1{
+                font-size: 4.0rem;;
+            }
+            p{
+                font-size: 1.5rem;;
+            }
+            .plan-boxes{
+                padding-top:80px;
+                .boxes-container{
+                    .a-plan{
+                        display: flex;
+                        flex-wrap: wrap;
+                        h2{
+                            font-size:2.5rem;
+                            line-height: 65px;
+                        }
+                        h3{
+                            margin-left:40px;
+                            font-size:1.3rem;
+                        }
+                        p{
+                            margin-left: 35%;
+                            font-size: 1.3rem;
+                        }
+                    }
+                    .b-plan{
+                        display: flex;
+                        flex-wrap: wrap;
+                        h2{
+                            font-size:2.5rem;
+                        }
+                        h3{
+                            margin-left:40px;
+                            font-size:1.3rem;
+                        }
+                        p{
+                            margin-left: 35%;
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+            .plan-more{
+                margin-left:60%;
+            }
+        }
+        .main-contact{
+            h1{
+                font-size:3.5rem;
+            }
+            p{
+                font-size:1.0rem;
+            }
+            .contact-text{
+                p{
+                    width:80%;
+                    margin:0 auto;
+                }
+            }
+            .contact-btn{
+                margin-top:0;
+            }
+        }
+    }
+}

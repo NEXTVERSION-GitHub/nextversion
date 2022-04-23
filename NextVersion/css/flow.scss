@@ -1,0 +1,170 @@
+$next_blue:rgb(64,92,191);
+
+.fadein{
+    opacity : 0;
+    transform: translateY(100px);
+    transition: all 1s;
+}
+
+body{
+    font-family: sans-serif;
+    font-family: serif;
+
+}
+
+.sp{
+    display: none;
+}
+
+.tb{
+    display: none;
+}
+
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: white;
+    z-index: 30;
+    .header-container{
+        width:90%;
+        margin:0 auto;
+        display: flex;
+        justify-content: space-between;
+        .header-left{
+            background-color: white;
+            width:15%;
+            img{
+                width: 100%;
+            }
+        }
+        .header-right{
+            display: flex;
+            justify-content: space-around;
+            .header-btn{
+                line-height: 115px;
+                margin-right:1%;
+                font-size: 1.5rem;
+                border-radius: 2px;
+            }
+            .header-btns{
+                display: none;
+            }
+
+            .header-btn a{
+                padding:20px 40px;
+                padding-bottom:0px;
+                border-bottom:1px solid white;
+                transition: .5s;
+            }
+
+            .header-btn a:hover{
+                border-bottom: 1px solid $next_blue;
+            }
+        }
+    }
+}
+
+main{
+    padding-top:115px;
+    padding-bottom:200px;
+    .flow-more{
+        opacity: 0;
+        transition: 1s;
+        .flow-more-container{
+            .flow-more-head{
+                margin-top:60px;
+                padding-top:120px;
+                padding-bottom:120px;
+                border-bottom:1px solid black;
+                h1{
+                    text-align: center;
+                    font-size: 4.5rem;
+                    padding-top: 60px;
+                }
+                p{
+                    text-align: center;
+                    margin-top:20px;
+                    font-size: 1.3rem;
+                }
+            }
+            .flow-more-main{
+                margin-top:70px;
+                .flow-more-top{
+                    .top-header{
+                        font-size: 2.0rem;
+                        text-align: center;
+                    }
+                    .top-text{
+                        display: flex;
+                        justify-content: center;
+                        margin-top:60px;
+                        .fa-laptop-code{
+                            font-size:5.0rem;
+                            line-height: 147px;
+                            color:$next_blue;
+                        }
+                        p{
+                            width: 30%;
+                            margin-left: 60px;
+                            letter-spacing: 5px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+                .flow-more-text{
+                    width:60%;
+                    margin:0 auto;
+                    margin-top:80px;
+                    .step_block{
+                        display: flex;
+                        margin-top:100px;
+                        .step_left{
+                            margin-right:105px;
+                            h1{
+                                font-size:2.5rem;
+                                background-color: $next_blue;
+                                color:white;
+                                padding: 15px 30px;
+                                border-radius: 4px;
+                            }
+                        }
+                        .step_right{
+                            width:70%;
+                            display: flex;
+                            flex-direction: column;
+                            h2{
+                                font-size: 2rem;
+                            }
+                            p{
+                                margin-top:30px;
+                                letter-spacing: 2px;
+                                line-height: 33px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    background-color: $next_blue;
+    padding:40px 0;
+    text-align: center;
+    color: white;
+    .footer-mail{
+        padding-right: 30px;
+        font-size: 1.5rem;
+    }
+    .footer-insta{
+        font-size: 1.5rem;
+    }
+    p{
+        letter-spacing: 10px;
+        margin-top: 20px;
+    }
+}
